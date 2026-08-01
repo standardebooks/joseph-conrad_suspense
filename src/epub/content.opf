@@ -38,10 +38,10 @@
 		<meta property="file-as" refines="#fulltitle">Suspense</meta>
 		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">War stories</dc:subject>
-		<meta property="authority" refines="#subject-1">LCHS</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85145220</meta>
 		<dc:subject id="subject-2">Napoleonic Wars, 1800-1815 -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-2">LCHS</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2008108200</meta>
 		<meta property="schema:genre">Fiction</meta>
 		<dc:description id="description">A young Englishman arrives in Genoa, during the time of Napoleon’s exile on Elba, and stumbles upon love and political intrigue.</dc:description>
@@ -65,7 +65,7 @@
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="writer-of-preface">Richard Curle</dc:contributor>
 		<meta property="file-as" refines="#writer-of-preface">Curle, Richard</meta>
-		<meta property="se:name.person.full-name" refines="#writer-of-preface">Richard Henry Parnell Curle</meta>
+		<meta property="schema:alternateName" refines="#writer-of-preface">Richard Henry Parnell Curle</meta>
 		<link href="https://en.wikipedia.org/wiki/Richard_Curle" refines="#writer-of-preface" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n50018547.html" refines="#writer-of-preface" rel="schema:sameAs"/>
 		<meta property="role" refines="#writer-of-preface" scheme="marc:relators">wpr</meta>
@@ -79,7 +79,7 @@
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-2">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-2" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Szymon Szott</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Szott, Szymon</meta>
